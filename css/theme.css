@@ -1,0 +1,264 @@
+.test {
+    color: blue;
+}
+
+.div_test {
+    background-color: red;
+    color: red;
+}
+/**
+ * OceanWP theme class
+ */
+/*
+.section-bordure {
+    border-bottom-left-radius: 50% 10%;
+    border-bottom-right-radius:50% 10%;
+    border-bottom: solid 15px #E3D9D0;
+}
+
+
+
+*/
+/**   HEADER  **/
+
+#site-header {
+    max-height: 80px;
+}
+
+.nav_item {
+    font-family: 'syne';
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+}
+.menu-header-container {
+
+
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 0px;
+}
+
+.lien_admin {
+    order: 2;
+}
+
+
+
+.menu_item-88 {
+    order: 1;
+}
+
+
+#menu-item-84 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    background-color: #DC9F96;
+    font-family: 'syne';
+    font-weight: bold;
+    font-size: 16px;
+    height: 80px;
+    order: 3;
+}
+#menu-item-84 a {
+    color: white;
+}
+#menu-item-84 a:hover{
+    color: white;
+}
+
+#menu-item-84:hover{
+    background-color: #C02E44;
+}
+
+#site-logo {
+    margin-left: 30px !important;
+}
+
+.secion_image_footer {
+    padding: 0px;
+}
+
+.section_acceuil {
+}
+
+
+
+/**   Section 1 page 2 **/
+
+.section-rencontrer {
+    border-bottom-left-radius:40% 20%;
+    border-bottom-right-radius:40% 20%;
+
+}
+
+
+
+/**   classe css du bouton page commande **/
+
+#bouton_ajout {
+    border-top-right-radius: 8px;
+    border-bottom: 1px solid white;
+
+}
+
+#bouton_supprimer {
+    border-right: solid 1px #DC9F96;
+    border-bottom-right-radius: 8px;
+}
+
+.section_boutons_commande {
+    width: 100%;
+    display: flex;
+    align-items: center !important;
+}
+
+.class_ajout_suppression {
+    background-color: #DC9F96 !important;
+}
+
+.class_bouton_ok {
+    background-color: #DC9F96 !important;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+
+/* formulaire */
+.formulaire_commande {
+    display: flex;
+    margin: 0 auto;
+}
+
+.titre_form {
+    font-family: 'syne';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: white;
+}
+
+
+.titre_form_livraison {
+    font-family: 'syne';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: white;
+
+}
+
+
+/* partie form */
+.div_form_p {
+    width: 48%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+
+.div_form_p.premiere {
+    padding-right: 4%;
+    border-right: solid 1px white;
+}
+
+
+.div_form_p.deuxieme {
+    margin-left: 4%;
+}
+
+/* Champs form */
+.class_label_form {
+    display: block;
+    margin-bottom: -10px;
+    font-family: 'syne' !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 24px !important;
+    color: white;
+}
+
+.class_input_form {
+    width: 100%;
+    padding: 8px !important;
+    box-sizing: border-box !important;
+    background-color: white !important;
+    border-radius: 8px !important;
+    height: 70px !important;
+}
+
+.class_bouton_form {
+    background-color: #DC9F96 !important;
+    border-radius: 6px;
+    color: white !important;
+    padding: 10px 60px !important;
+    border: none !important;
+    align-items: center !important;
+    font-family: 'syne' !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 37px !important;
+
+}
+
+.class_bouton_form:hover {
+    background-color: #C02E44 !important;
+}
+
+
+
+
+
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px){
+    .class_bouton_form {
+        margin-left: 240px !important;
+    }
+}
+
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .section-rencontrer {
+        border-bottom-left-radius: 40% 10%;
+        border-bottom-right-radius: 40% 10%;
+    }
+    .class_bouton_form {
+        margin-left: 25px !important;
+    }
+    #site-header {
+        min-height: 250px;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+    #site-header-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #menu-item-88 {
+        margin: 11px;
+
+    }
+    #menu-item-84 {
+        margin: 10px;
+    }
+
+}
+
