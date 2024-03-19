@@ -2,16 +2,9 @@
 /**
  * OceanWP theme class
  */
-/*
-.section-bordure {
-    border-bottom-left-radius: 50% 10%;
-    border-bottom-right-radius:50% 10%;
-    border-bottom: solid 15px #E3D9D0;
-}
 
 
 
-*/
 /**   HEADER  **/
 
 #site-header {
@@ -28,9 +21,6 @@
     width: 150px;
 }
 .menu-header-container {
-
-
-
 }
 
 .menu {
@@ -44,13 +34,21 @@
 .lien_admin {
     order: 2;
 }
-
-
-
-.menu_item-88 {
-    order: 1;
+.lien_admin a:hover {
+    font-weight: bold !important;
+    color: black !important;
 }
 
+
+.menu-item-88 {
+    order: 1;
+
+}
+
+.menu-item-88 a:hover {
+    font-weight: bold !important;
+    color: black !important;
+}
 
 #menu-item-84 {
     display: flex;
@@ -82,12 +80,6 @@
 .secion_image_footer {
     padding: 0px;
 }
-
-.section_acceuil {
-}
-
-
-
 /**   Section 1 page 2 **/
 
 .section-rencontrer {
@@ -131,7 +123,10 @@
 }
 
 
-
+.bouton_formulaire_contact {
+    width: 198px !important;
+    height: 55px !important;
+}
 
 /* formulaire */
 .formulaire_commande {
@@ -164,14 +159,10 @@
     box-sizing: border-box;
     margin-bottom: 15px;
 }
-
-
 .div_form_p.premiere {
     padding-right: 4%;
     border-right: solid 1px white;
 }
-
-
 .div_form_p.deuxieme {
     margin-left: 4%;
 }
@@ -186,7 +177,6 @@
     line-height: 24px !important;
     color: white;
 }
-
 .class_input_form {
     width: 100%;
     padding: 8px !important;
@@ -195,33 +185,31 @@
     border-radius: 8px !important;
     height: 70px !important;
 }
-
 .class_bouton_form {
     background-color: #DC9F96 !important;
     border-radius: 6px;
     color: white !important;
     padding: 10px 60px !important;
     border: none !important;
-    align-items: center !important;
+    align-self: center !important;
     font-family: 'syne' !important;
     font-weight: 400 !important;
     font-size: 15px !important;
     line-height: 37px !important;
+
 
 }
 
 .class_bouton_form:hover {
     background-color: #C02E44 !important;
 }
-
-
-
+.div_bouton_commande {
+    display: flex;
+    justify-content: center;
+}
 
 
 @media screen and (min-device-width : 768px) and (max-device-width : 1024px){
-    .class_bouton_form {
-        margin-left: 240px !important;
-    }
 }
 
 
@@ -229,9 +217,6 @@
     .section-rencontrer {
         border-bottom-left-radius: 40% 10%;
         border-bottom-right-radius: 40% 10%;
-    }
-    .class_bouton_form {
-        margin-left: 25px !important;
     }
     #site-header {
         min-height: 250px;
@@ -252,6 +237,15 @@
     #menu-item-84 {
         margin: 10px;
     }
-
+    .titre_form {
+        font-family: 'syne';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        color: white;
+    }
+    .titre_form_livraison {
+        font-size: 25px;
+    }
 }
 
